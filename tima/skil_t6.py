@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd 
 class Skil(object):
     """Timadaemi 2 f. REI
-
+hello there team  im gay as hell
     """
     def pd_calc(self,arr, col_names, row_names):
         n, m = arr.shape 
@@ -12,7 +12,7 @@ class Skil(object):
         else:
             col_names = col_names[:m]
         
-        if len(row_names) < n:
+        if len(dow_names) < n:
             row_names += [row_names[-1]] * (n - len(row_names))
         else:
             row_names = row_names[:n]
